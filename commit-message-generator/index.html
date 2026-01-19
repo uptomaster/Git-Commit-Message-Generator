@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Commit Message Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Git 커밋 메시지 생성기</h1>
+
+    <label>이름</label>
+    <input type="text" id="author" value="이남혁" />
+
+    <label>브랜치 (선택)</label>
+    <input type="text" id="branch" placeholder="예: lnh" />
+
+    <label>작업 상태</label>
+    <select id="status">
+      <option value="작업중">작업중</option>
+      <option value="완료">완료</option>
+    </select>
+
+    <label>작업 내용 (필수)</label>
+    <input type="text" id="work" placeholder="예: 로그인 API" />
+
+    <button id="generate">커밋 메시지 생성</button>
+
+    <label>결과</label>
+    <textarea id="result" readonly></textarea>
+
+    <button id="copy">복사</button>
+  </div>
+
+  <script src="script.js"></script>
+  <!-- 커밋 메세지 생성하면 토스트 알림 생성할 부분 -->
+  <div id="toast"></div>
+</body>
+
+</html>
