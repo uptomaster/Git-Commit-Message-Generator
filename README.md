@@ -3,6 +3,13 @@
 
 ---
 
+## Preview
+
+<p align="center">
+  <img src="assets/preview.png" width="420" />
+</p>
+
+
 # Git Commit Message Generator
 
 브라우저에서 입력만으로
