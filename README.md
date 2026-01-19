@@ -6,7 +6,7 @@
 ## Preview
 
 <p align="center">
-  <img src="assets/preview.png" width="420" />
+  <img src="commit-message-generator/assets/preview.png" width="420" />
 </p>
 
 
